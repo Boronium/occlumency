@@ -25,7 +25,7 @@ def open_popup():
    bar3 = Button(top,text='ไปทำนายดวง',command=occl)
    bar3.place(x=295,y=255)
 
-#the card chart choose cards // they will be more in the future
+#the card chart choose cards 
 def occl():
    oc= Toplevel(window)
    oc['bg'] = 'purple'
@@ -58,7 +58,7 @@ def occl():
    tarot = Button(oc,image=photo2)
    tarot.place(x=425,y=550)
    
-# The divination results
+# The divination results // they will be more in the future
 def focl1():
    focl= Toplevel(window)
    focl['bg'] = 'purple'
