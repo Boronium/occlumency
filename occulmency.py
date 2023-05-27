@@ -25,7 +25,7 @@ def open_popup():
    bar3 = Button(top,text='ไปทำนายดวง',command=occl)
    bar3.place(x=295,y=255)
 
-#the card chart choose cards
+#the card chart choose cards // they will be more in the future
 def occl():
    oc= Toplevel(window)
    oc['bg'] = 'purple'
