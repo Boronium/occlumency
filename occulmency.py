@@ -7,6 +7,7 @@ window = Tk()
 window.geometry("450x900")
 window['bg']='purple'
 
+#put your name and birth date
 def open_popup():
    top= Toplevel(window)
    top['bg'] = 'purple'
@@ -24,7 +25,7 @@ def open_popup():
    bar3 = Button(top,text='ไปทำนายดวง',command=occl)
    bar3.place(x=295,y=255)
 
-
+#the card chart choose cards
 def occl():
    oc= Toplevel(window)
    oc['bg'] = 'purple'
@@ -56,7 +57,8 @@ def occl():
 
    tarot = Button(oc,image=photo2)
    tarot.place(x=425,y=550)
-
+   
+# The divination results
 def focl1():
    focl= Toplevel(window)
    focl['bg'] = 'purple'
@@ -67,15 +69,11 @@ def focl1():
    priest.place(x=95,y=300)
    
    
-# txt = Label(window, text="Comparerameter", font=("Arial Bold", 10))
-# txt.grid(column=0, row=1)
-
+#locate where you dowload the pictures
 photo1 = PhotoImage(file="C:/Users/finpu/Desktop/PHC5project/logo.png")
 bar2 = Button(window,image=photo1,command=open_popup)
 bar2.place(x=95,y=300)
-
 photo2 = PhotoImage(file="C:/Users/finpu/Desktop/PHC5project/tarot.png")
-
 photo4 = PhotoImage(file="C:/Users/finpu/Desktop/PHC5project/priest.png")
 
 
